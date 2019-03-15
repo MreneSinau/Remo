@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_Home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_Pesan"
+        android:orderInCategory="100"
+        android:title="Pesan Mobil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_Login"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="never" />
+
+
+</menu>

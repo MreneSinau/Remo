@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "537312892318",
+    "firebase_url": "https://remo-222af.firebaseio.com",
+    "project_id": "remo-222af",
+    "storage_bucket": "remo-222af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537312892318:android:1eaa6bf1528b4f18",
+        "android_client_info": {
+          "package_name": "com.mrenesinau.remo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537312892318-0q7d2a49pe487g0178mhf41dn9e4dnev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUdUL_aJHJshwxM0OKyH4Cr6mF4RnhoMc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

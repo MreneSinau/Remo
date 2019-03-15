@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mrenesinau.remo.Activity_Pembayaran">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="status"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:src="@mipmap/finance"
+        android:text="Halaman Login"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="240dp"
+        android:gravity="center_horizontal"
+        android:text="Pilih Pembayaran"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnTrasnfer"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp"
+            android:layout_weight="1"
+            android:background="#d67601"
+            android:text="Bank Trasnfer"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnKeToko"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="22dp"
+            android:layout_weight="1"
+            android:background="#d67601"
+            android:text="Ke Toko"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="390dp"
+        android:gravity="center_horizontal"
+        android:text="Timer"
+        android:textColor="#000"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnKonfirmasi"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:layout_weight="1"
+        android:background="#d67601"
+        android:text="Sudah Bayar"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@mipmap/customer"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@mipmap/mappx"
+            android:title="Lokasi Sewa" />
+        <item
+            android:id="@+id/nav_pesan"
+            android:icon="@mipmap/carpx"
+            android:title="Pesan Mobil" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/infopx"
+            android:title="Tentang Kami" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@mipmap/helppx"
+            android:title="Bantuan" />
+        <item
+            android:id="@+id/nav_llogout"
+            android:icon="@mipmap/enterpx"
+            android:title="Keluar" />
+    </group>
+
+    <item android:title="Menu Lain">
+        <menu>
+            <item
+                android:id="@+id/nav_tambahmobil"
+                android:icon="@mipmap/addnew"
+                android:title="Tambah Mobil" />
+
+            <item
+                android:id="@+id/nav_Pesanan"
+                android:icon="@mipmap/garage"
+                android:title="Pesanan" />
+
+        </menu>
+    </item>
+
+</menu>

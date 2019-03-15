@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_main"
+        android:orderInCategory="100"
+        android:title="Beranda"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/pesan_main"
+        android:orderInCategory="100"
+        android:title="Pesan Mobil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/keluar_main"
+        android:orderInCategory="100"
+        android:title="Keluar"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mapsSr"
+            android:icon="@mipmap/mappx"
+            android:title="Lokasi Sewa" />
+        <item
+            android:id="@+id/nav_pesanSr"
+            android:icon="@mipmap/carpx"
+            android:title="Pesan Mobil" />
+
+        <item
+            android:id="@+id/nav_aboutSr"
+            android:icon="@mipmap/infopx"
+            android:title="Tentang Kami" />
+        <item
+            android:id="@+id/nav_helpSr"
+            android:icon="@mipmap/helppx"
+            android:title="Bantuan" />
+        <item
+            android:id="@+id/nav_loinSr"
+            android:icon="@mipmap/enterpx"
+            android:title="Masuk / Daftar" />
+
+    </group>
+
+</menu>
